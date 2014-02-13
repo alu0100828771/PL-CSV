@@ -1,0 +1,112 @@
+#finaltable:hover td {
+  background-color: rgb(0, 186, 27);
+  transition: background-color 300ms ease-out 0s;
+}
+tr:nth-child(odd) { background-color: rgba(0, 140, 186, 0.85); }
+tr:nth-child(even) { background-color: rgba(0, 72, 186, 0.85); }
+#result { border-color: red; }
+
+input {
+  text-align: right;
+  border: none;
+}
+
+tr.error { background-color: red; }
+
+html, body { font-size: 100%; }
+body {
+  background: white;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+}
+p {
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.6;
+  width: 75%;
+  margin-bottom: 1.25rem;
+}
+h1 { font-size: 2.125rem; }
+h2 { font-size: 1.6875rem; }
+h3 { font-size: 1.375rem; }
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  font-size: 60%;
+  color: #6f6f6f;
+  line-height: 0;
+}
+a {
+  color: rgb(0, 140, 186);
+  text-decoration: none;
+  line-height: inherit;
+}
+textarea {
+  border-radius: 0px;
+  background-color: white;
+  font-family: inherit;
+  border: 1px solid rgb(204, 204, 204);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1) inset;
+  color: rgba(0, 0, 0, 0.75);
+  display: block;
+  font-size: 0.875rem;
+  margin: 0px 0px 1rem;
+  padding: 0.5rem;
+  max-width: 100%;
+  min-height: 150px;
+  min-width: 25%;
+}
+table {
+  margin-bottom: 1.25rem;
+  border: 1px solid #6f6f6f;
+}
+table.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+th, td {
+  margin: 0px;
+  padding: 0px;
+  direction: ltr;
+}
+button, .button {
+  cursor: pointer;
+  font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+  line-height: normal;
+  margin: 0px 0px 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding: 1.0625rem 2rem 1rem;
+  font-size: 1rem;
+  background-color: rgb(0, 140, 186);
+  color: white;
+  transition: background-color 300ms ease-out 0s;
+  border: medium none;
+  font-weight: normal !important;
+}
+button:active, .button:active { background-color: rgb(0, 186, 27); }
+.big {
+  position: relative;
+  width: 100%;
+}
+.medium {
+  position: relative;
+  width: 75%;
+}
+.small {
+  position: relative;
+  width: 50%;
+}
+.column, .columns {
+  position: relative;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
